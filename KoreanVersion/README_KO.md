@@ -38,12 +38,15 @@ ABAP cheat sheets[^1] ...
 <summary>💡 Note</summary>
 <br>
 
-- Since the ABAP cheat sheets provide information in a nutshell, they do not claim to be fully comprehensive as far as the described syntax and concepts are concerned. If you need more details, you can always consult the ABAP Keyword Documentation, for example, by choosing *F1* on a keyword in your code, or by searching directly using the online or the system-internal version.
-- Unless otherwise stated in the cheat sheets, the content of this repository is relevant for these ABAP language versions (with a focus on the first):
+- ABAP 치트 시트는 개괄적인 정보를 제공할 뿐, 구문과 콘셉트에 대한 포괄적인 내용임을 보장하지는 않습니다. 더 많은 정보는 코드 내 키워드의 *F1* 또는 온라인 및 system-internal 버전에서 직접 검색하는 등의 방법으로 ABAP 키워드 문서를 참조해주시기 바랍니다.
+- 본 치트 시트에서 별도로 명시되지 않는 한, 본 문서의 내용은 아래 ABAP 언어 버전을 기준으로 합니다.
+(첫 항목 중심):
   - [ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm?file=abenabap_for_sap_cloud_glosry.htm): Restricted ABAP language scope for [ABAP Cloud](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenabap_cloud_glosry.htm) → [Online version of the documentation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm)
   - [Standard ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm?file=abenstandard_abap_glosry.htm): Unrestricted ABAP language scope, for example, for [classic ABAP](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenclassic_abap_glosry.htm) → [Online version of the documentation (latest version)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm?file=abenabap.htm)
-- Check the [Known Issues](#-known-issues) and [Disclaimer](#%EF%B8%8F-disclaimer).
-- The cheat sheets provide links to glossary entries and topics in the ABAP Keyword Documentation. Note that unlike the classic ABAP-only cheat sheets, in most cases these links refer to ABAP for Cloud Development.
+- [알려진 이슈](#-known-issues)와 [면책조항](#%EF%B8%8F-disclaimer)을 확인해주세요.
+- 본 치트시트는 ABAP 키워드 문서의 항목과 토픽에 대한 링크를 제공합니다. 
+기존의 ABAP전용 치트 시트와 달리, ABAP for Cloud Development를 
+Note that unlike the classic ABAP-only cheat sheets, in most cases these links refer to ABAP for Cloud Development.
 - [Here](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenrestricted_abap_elements.htm) is an overview of the different ABAP language elements in the different ABAP versions, i.e. what is allowed in ABAP Cloud and what is not. See also the released APIs [here](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenreleased_apis.htm).
 - In order to have all ABAP cheat sheet documents in one place, the *main* branch (for ABAP Cloud examples) also contains the ABAP cheat sheet documents that are only relevant for classic ABAP. 
 - The example classes contained in the branches for classic ABAP mostly use syntax that is also available in ABAP for Cloud Development. Only the  `TEST_ABAP_CHEAT_SHEETS_CLASSIC` subpackage contains syntax relevant to Standard ABAP and that is not available in ABAP for Cloud Development, such as dynpro-related ABAP keywords.
