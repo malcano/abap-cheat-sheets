@@ -4,10 +4,10 @@
     <img src="./files/ABAP_Keyword_Documentation.png" alt="ABAP Keyword Documentation" >
   </a>
 
-  <h3 align="center" style="font-size: 40px; color: #FCB913;">ABAP Cheat Sheets</h3>
+  <h3 align="center" style="font-size: 40px; color: #FCB913;">ABAP Cheat Sheets 한국어 버전</h3>
 
   <p align="center">
-    Explore ABAP syntax in a nutshell & executable examples
+    실행해볼 수 있는 예제와 함께 ABAP 문법을 간략하게 살펴봅시다.
     <br />
     <!--<a href=""><strong>Expore ABAP syntax in a nutshell & executable examples</strong></a>
     <br />-->
@@ -26,9 +26,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-cheat-sheets)](https://api.reuse.software/info/github.com/SAP-samples/abap-cheat-sheets)
 
 ABAP cheat sheets[^1] ...
-- provide a **collection of information on selected ABAP topics** in a nutshell for your reference.
+- **주제를 선택**하여 여러분이 참고할 수 있는 **ABAP** 레퍼런스를 확인할 수 있습니다.
 - focus on **ABAP syntax**.
-- include **code snippets**.
+- 본 문서는 **ABAP구문**을 중점으로 다룹니다.
+- **코드 스니펫을 포함하고 있습니다.**.
 - are supported by easy-to-consume **demonstration examples** that you can import into your [SAP BTP ABAP environment](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abensap_btp_abap_env_glosry.htm) (*main* branch; ABAP language version: [ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenabap_for_cloud_dev_glosry.htm)) or on-premise ABAP system ([classic ABAP](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenclassic_abap_glosry.htm); the repository branches other than *main*) using [abapGit](https://abapgit.org/) to run and check out ABAP syntax in action in simple contexts.
 - are enriched by links to glossary entries and chapters of the **ABAP Keyword Documentation** (the *F1 help*) and more for you to deep dive into the respective ABAP topics and get more comprehensive information.
 
